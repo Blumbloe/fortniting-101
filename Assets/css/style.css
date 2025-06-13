@@ -7,7 +7,17 @@
     --primary-font: "Noto Sans", sans-serif;
     --secondary-font: "Luckiest Guy", cursive;
     --primary-color: #2a095f; /* azul */
-    --secondary-color: #fbefff; /* white */
-    --highlight-color: #3d02bd; /* purple */
+    --secondary-color: #ffffff; /* white */
+    --highlight-color: #7321A1; /* purple */
     --highlight-color-light: #ddb1ff; /* cupids eye pink*/
+}
+
+/* Navbar */
+nav {
+    background-color: var(--highlight-color);
+    font-family: var(--primary-font);
+}
+
+nav .logo{
+    width:30px;
 }
