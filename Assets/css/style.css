@@ -1,0 +1,13 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* CSS Variables */ 
+:root {
+    --primary-font: "Noto Sans", sans-serif;
+    --secondary-font: "Luckiest Guy", cursive;
+    --primary-color: #2a095f; /* azul */
+    --secondary-color: #fbefff; /* white */
+    --highlight-color: #3d02bd; /* purple */
+    --highlight-color-light: #ddb1ff; /* cupids eye pink*/
+}
