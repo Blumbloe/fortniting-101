@@ -6,10 +6,15 @@
 :root {
     --primary-font: "Noto Sans", sans-serif;
     --secondary-font: "Luckiest Guy", cursive;
-    --primary-color: #2a095f; /* azul */
+    --primary-color: #46056A; /* azul */
     --secondary-color: #ffffff; /* white */
-    --highlight-color: #7321A1; /* purple */
-    --highlight-color-light: #ddb1ff; /* cupids eye pink*/
+    --highlight-color: #7421A1; /* purple */
+    --highlight-color-light: #A163C4; /* cupids eye pink*/
+} 
+
+body {
+    background-color: var(--highlight-color-light);
+    color: var(--secondary-color);
 }
 
 /* Navbar */
@@ -21,6 +26,15 @@ nav {
 nav .logo{
     width:50px;
     height: 50px;
+}
+
+/* Header */
+#header h1{
+    font-family: var(--secondary-font);
+}
+
+#header p{
+    font-family: var(--primary-font);
 }
 
 /* Footer / socials */
