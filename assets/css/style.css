@@ -15,6 +15,7 @@
 body {
     background-color: var(--highlight-color-light);
     color: var(--secondary-color);
+    padding-top: 76px;
 }
 
 /* Navbar */
