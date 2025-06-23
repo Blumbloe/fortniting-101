@@ -23,6 +23,10 @@ h2 {
  margin-bottom: 2rem;
 }
 
+.section{
+    padding-top: 4rem; /* prevent navbar overlap */
+}
+
 /* Navbar */
 nav {
     background-color: var(--highlight-color);
