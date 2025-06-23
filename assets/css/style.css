@@ -17,6 +17,11 @@ body {
     color: var(--secondary-color);
     padding-top: 76px;
 }
+h2 {
+ font-family: var(--secondary-font);
+ margin-top: 15px;
+ margin-bottom: 2rem;
+}
 
 /* Navbar */
 nav {
@@ -41,12 +46,22 @@ nav .logo{
 
 /*About section*/
 
-#about h2{
+#about h3{
     margin-top: 30px;
 }
 
-#about h2,p {
+#about h3,p {
     font-family: var(--primary-font);
+}
+
+/* Game modes section */
+#game-modes img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 700px;
+    height: 350px;
+    
+    
 }
 
 /* Footer / socials */
