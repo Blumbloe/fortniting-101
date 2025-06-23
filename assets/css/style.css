@@ -23,9 +23,11 @@ h2 {
  margin-bottom: 2rem;
 }
 
-.section{
+#game-modes{
     padding-top: 4rem; /* prevent navbar overlap */
 }
+
+/* Buttons */
 
 /* Navbar */
 nav {
