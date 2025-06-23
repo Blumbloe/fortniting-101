@@ -28,7 +28,15 @@ h2 {
 }
 
 /* Buttons */
-
+.custom-button-outline {
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.custom-button-outline:hover{
+    color: var(--secondary-color);
+    background-color: var(--highlight-color);
+}
 /* Navbar */
 nav {
     background-color: var(--highlight-color);
