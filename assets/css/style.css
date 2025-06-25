@@ -23,7 +23,7 @@ h2 {
  margin-bottom: 2rem;
 }
 
-#game-modes{
+#game-modes, #about{
     padding-top: 4rem; /* prevent navbar overlap */
 }
 
@@ -76,6 +76,12 @@ nav .logo{
     height: 350px;
     
     
+}
+
+/* Contact form section */
+#contact-form {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 /* Footer / socials */
