@@ -9,7 +9,7 @@
     --primary-color: #46056A; /* azul */
     --secondary-color: #ffffff; /* white */
     --highlight-color: #7421A1; /* purple */
-    --highlight-color-light: #A163C4; /* cupids eye pink*/
+    --highlight-color-light: #A163C4; /* light purple */
 } 
 
 body {
@@ -106,3 +106,7 @@ font-family: var(--secondary-font);
     font-family: var(--primary-font);
 }
 
+.disclaimer {
+    font-size: smaller;
+    opacity: 60%;
+}
