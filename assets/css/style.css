@@ -6,15 +6,15 @@
 :root {
     --primary-font: "Noto Sans", sans-serif;
     --secondary-font: "Luckiest Guy", cursive;
-    --primary-color: #46056A; /* azul */
-    --secondary-color: #ffffff; /* white */
-    --highlight-color: #7421A1; /* purple */
-    --highlight-color-light: #A163C4; /* light purple */
+    --indigo: #46056A; 
+    --white: #ffffff; 
+    --grape: #7421A1;
+    --amethyst: #A163C4;
 } 
 
 body {
-    background-color: var(--highlight-color-light);
-    color: var(--secondary-color);
+    background-color: var(--amethyst); 
+    color: var(--white); 
     padding-top: 76px;
 }
 h2 {
@@ -29,17 +29,17 @@ h2 {
 
 /* Buttons */
 .custom-button-outline {
-  border: 2px solid var(--primary-color);
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  border: 2px solid var(--indigo);
+  background-color: var(--indigo);
+  color: var(--white); 
 }
 .custom-button-outline:hover{
-    color: var(--secondary-color);
-    background-color: var(--highlight-color);
+    color: var(--white); 
+    background-color: var(--grape); 
 }
 /* Navbar */
 nav {
-    background-color: var(--highlight-color);
+    background-color: var(--grape); 
     font-family: var(--primary-font);
 }
 
@@ -86,22 +86,22 @@ nav .logo{
 
 /* Footer / socials */
 #contact {
-    background-color: var(--highlight-color);
-    color: var(--secondary-color);
+    background-color: var(--grape); 
+    color: var(--white); 
 }
 
 #contact h2{
 font-family: var(--secondary-font);
 }
 #contact .social-links i{
-    color: var(--secondary-color);
+    color: var(--white); 
     font-size: 2rem;
    margin-right: 15px;
    margin-left: 15px;
 }
 
 #contact .social-links i:hover{
-    color: var(--highlight-color-light);
+    color: var(--amethyst); 
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
