@@ -113,6 +113,6 @@ font-family: var(--secondary-font);
 }
 
 .disclaimer {
-    font-size: smaller;
+    font-size: 14px;
     opacity: 60%;
 }
