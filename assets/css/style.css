@@ -28,7 +28,7 @@ h2 {
  margin-bottom: 2rem;
 }
 
-#game-modes, #about{
+#game-modes, #about, #contact-form{
     padding-top: 4rem; /* prevent navbar overlap */
 }
 

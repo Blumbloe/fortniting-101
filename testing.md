@@ -25,4 +25,6 @@ Throughout the development of the site I have been consistently checking for bug
 
 - I also had issues with the images in the gamemode section appearing under the images respective text on large screen sizes when they were supposed to be beside one another. To solve this issue I added a div with a class of "row" to each of the divs containing the images and text so that the image would be on the same level as the text.
 
-- Due to the deadline of the project I was unable to fix everybug as i had to prioritise the major bugs. As a result I was unable to fix the issue of the favicon not showing up on the site.
+- Due to the deadline of the project I was unable to fix every bug as i had to prioritise the major bugs. As a result I was unable to fix the issue of the favicon not showing up on the site.
+
+
