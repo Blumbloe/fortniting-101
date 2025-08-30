@@ -27,4 +27,6 @@ Throughout the development of the site I have been consistently checking for bug
 
 - Due to the deadline of the project I was unable to fix every bug as i had to prioritise the major bugs. As a result I was unable to fix the issue of the favicon not showing up on the site.
 
+## Manual Testing 
+
 
