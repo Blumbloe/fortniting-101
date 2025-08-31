@@ -13,7 +13,7 @@ Result - Success - The site contains a 404 error page featuring a warning and a 
 ##### Goal: A contact me form
 Result - Success - The site contains a contact form for users to fill out.
 
-## Fixing Bugs
+### Fixing Bugs
 
 Throughout the development of the site I have been consistently checking for bugs or issues in the code some of those issues are as followed:
 
@@ -27,9 +27,9 @@ Throughout the development of the site I have been consistently checking for bug
 
 - Due to the deadline of the project I was unable to fix every bug as i had to prioritise the major bugs. As a result I was unable to fix the issue of the favicon not showing up on the site.
 
-## Manual Testing 
+### Manual Testing 
 
-### Functionality testing
+#### Functionality testing
 
 - The testing was completed on the following devices:
 
@@ -42,12 +42,49 @@ The browsers used to test the site include:
 - Safari
 - Microsoft Edge
 
-## Lighthouse
+### Lighthouse
 I have used the "lighthouse" feature within Chrome dev tools to test the sites performance, accessibility and best practices. I have checked both mobile and desktop device types.
 ![image of Lighthouse performance for desktop](/assets/documentation/lighthouse-pc.png)
 ![image of Lighthouse performance for mobile](/assets/documentation/lighthouse-mobile.png)
 
 ![image of Lighthouse diagnostics](/assets/documentation/lighthouse-diagnostic.png)
 
-On initial checks the desktop's performance was satisfactory however the mobiles performance had room to improve.
+On initial checks the desktop's performance was satisfactory however the mobiles performance had room to improve. I saw that the biggest issue was the images in the carousel being too big for the smaller screen sizes so I took those larger images and reduced their size to about 45%, which also reduced the file size and then conveted them from jpegs to webp files and then proceeded to use the picture tag to set the default image to the smaller mobile size version of the image and set a minimum width of 465 pixels so that if the screen size is over that amount the larger version of the image is used.
+
+On final checks the scores are greatly improved for both desktop and mobile versions.
+
+![image of Lighthouse performance for desktop after changes](/assets/documentation/lighthouse-pc-final.png)
+![image of Lighthouse performance for mobile after changes](/assets/documentation/lighthouse-mobile-final.png)
+
+### Validation
+
+[W3C](https://validator.w3.org/) validator has been used to check the HTML for all the pages 
+
+[W3C](https://jigsaw.w3.org/css-validator/) jigsaw has been used to check the CSS stylesheet 
+
+#### HTML
+The initial check in the index.html file came up with a few issues which have since been resolved.
+
+![index.html validation errors](/assets/documentation/index-validation.png)
+
+On final check no issues remain.
+
+The validation check on success.html came up with no errors.
+
+![validation for success page](/assets/documentation/success-validation.png)
+
+The validation check on 404.html came up with no errors.
+
+![validation for 404 error page](/assets/documentation/success-validation.png)
+
+#### CSS
+
+
+The validation check on the CSS stylesheet came up with no errors.
+
+![validation for css stylesheet](/assets/documentation/css-validation.png)
+
+
+
+
 
