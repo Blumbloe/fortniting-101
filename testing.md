@@ -46,6 +46,8 @@ The browsers used to test the site include:
 I have used the "lighthouse" feature within Chrome dev tools to test the sites performance, accessibility and best practices. I have checked both mobile and desktop device types.
 ![image of Lighthouse performance for desktop](/assets/documentation/lighthouse-pc.png)
 ![image of Lighthouse performance for mobile](/assets/documentation/lighthouse-mobile.png)
-On initial checks the desktop's performance was satisfactory however the mobiles performance had room to improve.
+
 ![image of Lighthouse diagnostics](/assets/documentation/lighthouse-diagnostic.png)
+
+On initial checks the desktop's performance was satisfactory however the mobiles performance had room to improve.
 
