@@ -14,7 +14,7 @@
 
 Throughout the development of the site I have been consistently checking for bugs or issues in the code some of those issues are as followed:
 
-- The carousel was not interactable and the solution I found was to change the type of carousel I was using from bootstrap which then gave it interactivity.
+- The carousel was not interactable and the solution I found was to rename the ID and classes which gave the carousel its interactivity.
 
 - When clicking on the navbar buttons to go to the different sections of the page the navbar would overlap the section heading. To remedy this I added some padding to the top of the sections so that the navbar would not cover up the headings
 
